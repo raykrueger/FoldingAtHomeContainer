@@ -1,0 +1,16 @@
+<config>
+  <!-- Client Control -->
+  <fold-anon v='true'/>
+
+  <!-- Folding Slot Configuration -->
+  <!-- <gpu v='true'/> -->
+
+  <!-- Slot Control -->
+  <power v='full'/>
+
+  <!-- User Information -->
+  <user v='Anonymous@aws'/>
+
+  <!-- Folding Slots -->
+  <slot id='0' type='GPU'/>
+</config>
