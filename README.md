@@ -21,4 +21,5 @@ support for teams, passkeys, or any other inputs really.
 
 I am not working making this container infinitely customizable. If you want to
 customize the container to add passkeys or teams, or any other support; feel
-free to fork or launch a new container FROM this one.
+free to fork or launch a new container _FROM raykrueger/folding-at-home_ in
+your own Dockerfile, and copying in your own config.xml.
