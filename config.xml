@@ -9,7 +9,7 @@
   <power v='full'/>
 
   <!-- User Information -->
-  <user v='Anonymous@aws'/>
+  <user v='FoldingAtHomeContainer'/>
 
   <!-- Folding Slots -->
   <slot id='0' type='GPU'/>
