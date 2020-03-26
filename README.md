@@ -26,6 +26,22 @@ customize the container to add passkeys or teams, or any other support; feel
 free to fork or launch a new container _FROM raykrueger/folding-at-home_ in
 your own Dockerfile, and copying in your own config.xml.
 
+Windows and Mac are not supported. Mainly because Mac and Windows do not have
+GPU support for linux containers.
+
+## Testing Locally (on Linux)
+
+Once you've installed the NVIDIA Docker Tool kit, you can run this locally.
+
+    docker run --gpus=all --rm -it raykrueger/folding-at-home
+
+To build and test local...
+
+    git clone https://github.com/raykrueger/FoldingAtHomeContainer.git
+    cd FoldingAtHomeContainer
+    docker build -t folding-at-home
+    docker run --gpus=all --rm -it folding-at-home
+
 ## Running on Amazon ECS
 
 To run this container on Amazon ECS are here.
