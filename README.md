@@ -44,5 +44,6 @@ To build and test local...
 
 ## Running on Amazon ECS
 
-To run this container on Amazon ECS are here.
+To run this container on Amazon ECS I've built a CDK app that you can
+download here
 [https://github.com/raykrueger/FoldingOnECS](https://github.com/raykrueger/FoldingOnECS).
