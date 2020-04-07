@@ -3,6 +3,8 @@
   <fold-anon v='true'/>
 
   <!-- Folding Slot Configuration -->
+  <client-type v='advanced'/>
+
   <!-- <gpu v='true'/> -->
 
   <!-- Slot Control -->
@@ -10,6 +12,9 @@
 
   <!-- User Information -->
   <user v='FoldingAtHomeContainer'/>
+
+  <!-- Work Unit Control -->
+  <next-unit-percentage v='90'/>
 
   <!-- Folding Slots -->
   <slot id='0' type='GPU'/>
